@@ -1,0 +1,42 @@
+body {
+    background-color: #f0f2f6; /* Cambiar a un color de fondo más claro */
+    color: #242c73; /* Color de texto principal */
+    font-family: 'sans-serif', Arial, sans-serif;
+    margin: 0; /* Asegura que no haya margen externo */
+    padding: 0; /* Asegura que no haya relleno externo */
+}
+
+h1 {
+    color: #0d83d8; /* Color del título principal */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+button {
+    background-color: #1f77b4; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border-radius: 5px; /* Borde redondeado */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Relleno interno */
+    cursor: pointer; /* Cambia el cursor a una mano */
+}
+
+button:hover {
+    background-color: #155a8a; /* Cambia el color de fondo al pasar el ratón */
+}
+
+.stTextArea {
+    border: 1px solid #1f77b4; /* Borde para el área de texto */
+}
+
+.stButton > button {
+    background-color: #1f77b4; /* Color de fondo del botón en componentes */
+    color: white; /* Color del texto del botón en componentes */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Relleno interno */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor a una mano */
+}
+
+.stButton > button:hover {
+    background-color: #155a8a; /* Cambia el color de fondo al pasar el ratón en componentes */
+}
