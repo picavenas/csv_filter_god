@@ -60,11 +60,9 @@ Select the columns "Riskgroup" and "genres" for filtering.
 Enter values like "low" for "Riskgroup" and "amusement" for "genres" in the inclusion filters.
 Click "Apply filters" to generate a filtered CSV containing users with "Riskgroup" as "low" and "genres" as "amusement".
 Download the filtered CSV for further analysis.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 Contributing
 Contributions are welcome! Fork the repository and submit a pull request with your enhancements.
 
 Contact
-For questions or suggestions, please contact Your Name.
+For questions or suggestions, please contact agenteslol@gmail.com.
