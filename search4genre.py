@@ -81,6 +81,10 @@ if uploaded_file is not None:
             original_user_count = data.shape[0]  # Total de filas en el archivo original
             filtered_user_count = filtered_data.shape[0]  # Total de filas en el archivo filtrado
 
+            # Mostrar el número total de registros y registros filtrados
+            st.write(f"Total records: {original_user_count}")
+            st.write(f"Filtered records: {filtered_user_count}")
+
             plot_filtered_data(original_user_count, filtered_user_count)
 
             # Descargar archivos
