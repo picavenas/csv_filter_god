@@ -3,7 +3,7 @@ el propósito de la aplicación CSV Filter G.O.D, proporcionando a los usuarios 
 
 
 
-# CSV Filter G.O.D
+//////////////////////////////////////# CSV Filter G.O.D///////////////////////////////////////
 
 This is a Streamlit-based application for filtering CSV data based on user-defined criteria.
 
@@ -30,8 +30,9 @@ pip install -r requirements.txt
 Usage
 Start the Streamlit application by running the following command:
 bash
-Copiar código
-streamlit run search4genre.py
+Copy códe
+streamlit run search4genre.py (mac)
+python -m streamlit run search4genre.py (windows)
 Access the application through your web browser. Follow the instructions on the Streamlit interface to:
 
 Upload a CSV file.
